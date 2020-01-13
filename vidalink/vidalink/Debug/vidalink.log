@@ -1,0 +1,5 @@
+﻿  Principal.cpp
+d:\remaq\c++ vidalink\teste\vidalink\vidalink\principal.cpp(214): warning C4101: 'retorno': variável local não referenciada
+d:\remaq\c++ vidalink\teste\vidalink\vidalink\principal.cpp(322): warning C4018: '<': incompatibilidade de signed/unsigned
+d:\remaq\c++ vidalink\teste\vidalink\vidalink\principal.cpp(380): warning C4101: 's': variável local não referenciada
+  vidalink.vcxproj -> D:\remaq\c++ Vidalink\teste\vidalink\Debug\vidalink.exe

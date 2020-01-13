@@ -1,0 +1,14 @@
+﻿  Principal.cpp
+d:\remaq\c++ vidalink\teste\vidalink\vidalink\principal.cpp(198): warning C4101: 'retorno': variável local não referenciada
+d:\remaq\c++ vidalink\teste\vidalink\vidalink\principal.cpp(264): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
+d:\remaq\c++ vidalink\teste\vidalink\vidalink\principal.cpp(375): warning C4244: '=': conversão de 'SOCKET' para 'int', possível perda de dados
+d:\remaq\c++ vidalink\teste\vidalink\vidalink\principal.cpp(361): warning C4101: 's': variável local não referenciada
+Principal.obj : error LNK2019: sÝmbolo externo indefinido connect referenciado na funþÒo "int __cdecl socketClient(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int)" (?socketClient@@YAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)
+Principal.obj : error LNK2019: sÝmbolo externo indefinido htons referenciado na funþÒo "int __cdecl socketClient(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int)" (?socketClient@@YAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)
+Principal.obj : error LNK2019: sÝmbolo externo indefinido inet_addr referenciado na funþÒo "int __cdecl socketClient(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int)" (?socketClient@@YAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)
+Principal.obj : error LNK2019: sÝmbolo externo indefinido recv referenciado na funþÒo "int __cdecl recebeMsgSocket(void)" (?recebeMsgSocket@@YAHXZ)
+Principal.obj : error LNK2019: sÝmbolo externo indefinido send referenciado na funþÒo "int __cdecl enviaMsgSocket(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?enviaMsgSocket@@YAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Principal.obj : error LNK2019: sÝmbolo externo indefinido socket referenciado na funþÒo "int __cdecl socketClient(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int)" (?socketClient@@YAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)
+Principal.obj : error LNK2019: sÝmbolo externo indefinido WSAStartup referenciado na funþÒo "int __cdecl socketClient(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int)" (?socketClient@@YAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)
+Principal.obj : error LNK2019: sÝmbolo externo indefinido WSAGetLastError referenciado na funþÒo "int __cdecl socketClient(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int)" (?socketClient@@YAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)
+D:\remaq\c++ Vidalink\teste\vidalink\x64\Debug\vidalink.exe : fatal error LNK1120: 8 externo nÒo resolvidos
